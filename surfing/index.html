@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Surf & Travel — Surf Camp e Viaggi</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-nav">
+  <div class="nav-inner">
+    <div class="brand">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M3 17c4-6 9-11 18-14-3 9-8 14-14 18-1.5-1-3-2.5-4-4Z" fill="#ef7d4c"/></svg>
+      Surf &amp; Travel
+    </div>
+    <nav class="links">
+      <a href="#tipi"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19h16M4 15l4-8 4 5 3-4 5 7"/></svg>Tipi di Vacanza</a>
+      <a href="#destinazioni"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="10" r="3"/><path d="M12 21s7-6.5 7-11a7 7 0 1 0-14 0c0 4.5 7 11 7 11Z"/></svg>Destinazioni</a>
+      <a href="#testimonianze"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.5 8.5 0 0 1-8.5 8.5c-1.3 0-2.5-.3-3.6-.8L4 21l1.8-4.9A8.5 8.5 0 1 1 21 11.5Z"/></svg>Testimonianze</a>
+      <a href="#about"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 16v-4M12 8h.01"/></svg>About</a>
+    </nav>
+    <a href="#tipi" class="btn btn-coral">Prenota Ora</a>
+  </div>
+</header>
+
+<section class="hero">
+  <img class="hero-photo" src="./img/1.jpg" alt="Surfista al tramonto sull'oceano">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <span class="kicker">Surf &amp; Travel Agency</span>
+    <h1>La tua prossima avventura inizia oggi.</h1>
+  </div>
+</section>
+
+<div class="wrap">
+  <div class="search-bar reveal">
+    <div class="search-field">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="10" r="3"/><path d="M12 21s7-6.5 7-11a7 7 0 1 0-14 0c0 4.5 7 11 7 11Z"/></svg>
+      <div><label>Luogo</label><input type="text" placeholder="Dove vuoi andare?"></div>
+    </div>
+    <div class="search-field">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>
+      <div><label>Data</label><input type="text" placeholder="Quando parti?"></div>
+    </div>
+    <div class="search-field">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg>
+      <div><label>Ospiti</label><input type="text" placeholder="Quanti siete?"></div>
+    </div>
+    <button class="btn btn-coral">Cerca</button>
+  </div>
+</div>
+
+<section id="tipi">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <h2>Le vacanze <span class="accent">SurfCamp</span></h2>
+      <p>Scegli la tipologia di vacanza di surf che fa per te. Puoi partire in qualsiasi momento.</p>
+    </div>
+    <div class="type-grid">
+      <div class="type-card reveal"><div class="type-icon">🏄</div><div><h3>Surf Camp</h3><p>Da 5 a 20 giorni</p></div></div>
+      <div class="type-card reveal"><div class="type-icon">🚐</div><div><h3>Roadtrip</h3><p>Da 7 a 15 giorni</p></div></div>
+      <div class="type-card reveal"><div class="type-icon">🏝️</div><div><h3>Surf Lodge</h3><p>Da 3 a 10 giorni</p></div></div>
+      <div class="type-card reveal"><div class="type-icon">🎒</div><div><h3>Surf Hostel</h3><p>Da 5 a 20 giorni</p></div></div>
+      <div class="type-card reveal"><div class="type-icon">⛵</div><div><h3>Boat Trip</h3><p>Da 7 a 14 giorni</p></div></div>
+      <div class="type-card reveal"><div class="type-icon">🌅</div><div><h3>Sunrise</h3><p>Da 3 a 7 giorni</p></div></div>
+      <div class="type-card reveal"><div class="type-icon">🧘</div><div><h3>Surf &amp; Yoga</h3><p>Da 5 a 12 giorni</p></div></div>
+      <div class="type-card reveal"><div class="type-icon">⛺</div><div><h3>Glamping</h3><p>Da 4 a 10 giorni</p></div></div>
+      <div class="type-card reveal"><div class="type-icon">👨‍👩‍👧‍👦</div><div><h3>Family Trip</h3><p>Da 7 a 14 giorni</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0;">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <h2>I pacchetti più popolari</h2>
+      <p>Scegli la tipologia di vacanza di surf che fa per te. Puoi partire in qualsiasi momento.</p>
+    </div>
+    <div class="pkg-grid">
+      <div class="pkg-card reveal">
+        <div class="pkg-photo"><img src="./img/2.jpg" alt="Jeffrey's Bay Surf Camp in Hotel"><span class="pkg-tag">Surf Camp</span></div>
+        <div class="pkg-body"><div class="pkg-loc">Africa, Marocco</div><div class="pkg-title">Jeffrey's Bay Surf Camp in Hotel</div></div>
+      </div>
+      <div class="pkg-card reveal">
+        <div class="pkg-photo"><img src="./img/3.jpg" alt="Jeffrey's Bay Surf Camp in Hotel"><span class="pkg-tag">Surf Camp</span></div>
+        <div class="pkg-body"><div class="pkg-loc">Africa, Marocco</div><div class="pkg-title">Jeffrey's Bay Surf Camp in Hotel</div></div>
+      </div>
+      <div class="pkg-card reveal">
+        <div class="pkg-photo"><img src="./img/4.jpg" alt="Jeffrey's Bay Surf Camp in Hotel"><span class="pkg-tag">Surf Camp</span></div>
+        <div class="pkg-body"><div class="pkg-loc">Africa, Marocco</div><div class="pkg-title">Jeffrey's Bay Surf Camp in Hotel</div></div>
+      </div>
+      <div class="pkg-card reveal">
+        <div class="pkg-photo"><img src="./img/5.jpg" alt="Jeffrey's Bay Surf Camp in Hotel"><span class="pkg-tag">Surf Camp</span></div>
+        <div class="pkg-body"><div class="pkg-loc">Africa, Marocco</div><div class="pkg-title">Jeffrey's Bay Surf Camp in Hotel</div></div>
+      </div>
+      <div class="pkg-card reveal">
+        <div class="pkg-photo"><img src="./img/6.jpg" alt="Jeffrey's Bay Surf Camp in Hotel"><span class="pkg-tag">Surf Camp</span></div>
+        <div class="pkg-body"><div class="pkg-loc">Africa, Marocco</div><div class="pkg-title">Jeffrey's Bay Surf Camp in Hotel</div></div>
+      </div>
+      <div class="pkg-card reveal">
+        <div class="pkg-photo"><img src="./img/8.jpg" alt="Jeffrey's Bay Surf Camp in Hotel"><span class="pkg-tag">Surf Camp</span></div>
+        <div class="pkg-body"><div class="pkg-loc">Africa, Marocco</div><div class="pkg-title">Jeffrey's Bay Surf Camp in Hotel</div></div>
+      </div>
+    </div>
+    <div class="pkg-cta-wrap reveal"><a href="#" class="btn btn-coral">Scopri tutti i pacchetti</a></div>
+  </div>
+</section>
+
+<section class="why-bg">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <h2>Perchè partire con <span class="accent">Surfcamp</span>?</h2>
+      <p>Da oltre 10 anni aiutiamo viaggiatori e viaggiatrici come te a vivere esperienze di surf e di vita in giro per il mondo. Passione garantita.</p>
+    </div>
+    <div class="why-grid">
+      <div class="why-item reveal">
+        <div class="why-badge b1">🌊</div>
+        <h3>Attività esclusive</h3>
+        <p>Non solo surf. Con noi puoi scegliere da yoga, immersioni, escursioni e tanto altro, incastonati nel viaggio che stai vivendo.</p>
+      </div>
+      <div class="why-item reveal">
+        <div class="why-badge b2">🗺️</div>
+        <h3>Le mete di Surfcamp</h3>
+        <p>Unite per aver dei livelli, aspetti e tipologie di cultura diverse. Ecco come puoi trovare la meta e la tua esperienza di Surf Camp.</p>
+      </div>
+      <div class="why-item reveal">
+        <div class="why-badge b3">🤝</div>
+        <h3>Adatto a tutti quanti</h3>
+        <p>Un'atletica a tutti i livelli e trovi sempre la miglior soluzione per te, adatta alle tue esigenze e alla tua voglia di avventura.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="destinazioni">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <h2>Scegli la tua prossima destinazione</h2>
+      <p>In quale angolo di mondo vuoi andare? Cerca tra oltre 200 mete disponibili.</p>
+    </div>
+    <div class="map-wrap reveal">
+      <svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg">
+        <g>
+          <ellipse cx="120" cy="90" rx="55" ry="38"/>
+          <ellipse cx="180" cy="150" rx="40" ry="60"/>
+          <ellipse cx="330" cy="80" rx="60" ry="34"/>
+          <ellipse cx="350" cy="170" rx="46" ry="66"/>
+          <ellipse cx="470" cy="110" rx="70" ry="44"/>
+          <ellipse cx="540" cy="200" rx="45" ry="34"/>
+        </g>
+      </svg>
+    </div>
+    <div class="dest-label reveal">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2 15 9 22 10 17 15 18 22 12 18.5 6 22 7 15 2 10 9 9 Z"/></svg>
+      Destinazioni
+    </div>
+    <div class="section-head reveal" style="margin-bottom:36px;">
+      <p>Tutte le vacanze in anteprima per la tua prossima vacanza surf e non solo.</p>
+    </div>
+    <div class="dest-grid">
+      <div class="dest-tile reveal"><img src="./img/9.jpg" alt="Bidnija, Marocco"><div class="dest-pin"><svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="10" r="3"/><path d="M12 21s7-6.5 7-11a7 7 0 1 0-14 0c0 4.5 7 11 7 11Z"/></svg>Bidnija, Marocco</div></div>
+      <div class="dest-tile reveal"><img src="./img/10.jpg" alt="Bidnija, Marocco"><div class="dest-pin"><svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="10" r="3"/><path d="M12 21s7-6.5 7-11a7 7 0 1 0-14 0c0 4.5 7 11 7 11Z"/></svg>Bidnija, Marocco</div></div>
+      <div class="dest-tile reveal"><img src="./img/11.jpg" alt="Bidnija, Marocco"><div class="dest-pin"><svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="10" r="3"/><path d="M12 21s7-6.5 7-11a7 7 0 1 0-14 0c0 4.5 7 11 7 11Z"/></svg>Bidnija, Marocco</div></div>
+      <div class="dest-tile reveal"><img src="./img/12.jpg" alt="Bidnija, Marocco"><div class="dest-pin"><svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="10" r="3"/><path d="M12 21s7-6.5 7-11a7 7 0 1 0-14 0c0 4.5 7 11 7 11Z"/></svg>Bidnija, Marocco</div></div>
+      <div class="dest-tile reveal"><img src="./img/13.jpg" alt="Bidnija, Marocco"><div class="dest-pin"><svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="10" r="3"/><path d="M12 21s7-6.5 7-11a7 7 0 1 0-14 0c0 4.5 7 11 7 11Z"/></svg>Bidnija, Marocco</div></div>
+      <div class="dest-tile reveal"><img src="./img/14.jpg" alt="Bidnija, Marocco"><div class="dest-pin"><svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="10" r="3"/><path d="M12 21s7-6.5 7-11a7 7 0 1 0-14 0c0 4.5 7 11 7 11Z"/></svg>Bidnija, Marocco</div></div>
+    </div>
+    <div class="dest-cta-wrap reveal"><a href="#" class="btn-outline">Cerca per località</a></div>
+  </div>
+</section>
+
+<section id="testimonianze" style="padding-top:20px;">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <h2>Le opinioni di chi ha viaggiato con noi</h2>
+      <p>Abbiamo aiutato più di 3000 persone come te a vivere una vacanza di surf indimenticabile.</p>
+    </div>
+    <div class="testi-grid">
+      <div class="testi-card reveal">
+        <div class="testi-avatar">J</div>
+        <div class="testi-name">Joe Bio</div>
+        <div class="testi-loc">Visited: France</div>
+        <p class="testi-quote">Un'esperienza che porterò con me per sempre: guide preparate, gruppo affiatato e onde perfette ogni mattina.</p>
+      </div>
+      <div class="testi-card reveal">
+        <div class="testi-avatar">J</div>
+        <div class="testi-name">Jane Bio</div>
+        <div class="testi-loc">Visited: France</div>
+        <p class="testi-quote">Organizzazione impeccabile dal primo giorno. Ho imparato più in una settimana che in un anno da sola.</p>
+      </div>
+      <div class="testi-card reveal">
+        <div class="testi-avatar">J</div>
+        <div class="testi-name">Joe Bio</div>
+        <div class="testi-loc">Visited: France</div>
+        <p class="testi-quote">Location incredibile, staff sempre disponibile. Sto già pianificando il prossimo viaggio con loro.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="newsletter">
+  <img class="nl-photo" src="./img/15.jpg" alt="Coppia rilassata sulla spiaggia">
+  <div class="nl-overlay"></div>
+  <div class="wrap">
+    <div class="nl-inner reveal">
+      <h2>Iscriviti alla <span class="accent">Newsletter</span></h2>
+      <form class="nl-form" onsubmit="event.preventDefault(); this.querySelector('button').textContent='Iscritto ✓';">
+        <input type="text" placeholder="Nome e Cognome" required>
+        <input type="email" placeholder="Indirizzo mail" required>
+        <button class="btn btn-coral" type="submit">Voglio iscrivermi</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer id="about">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="foot-brand">Surf &amp; Travel</div>
+        <div class="foot-sub">Surf &amp; Travel Agency</div>
+        <p class="foot-desc">Tutte le destinazioni selezionate per te per vivere la tua prossima vacanza di surf e non solo.</p>
+      </div>
+      <div class="foot-col">
+        <h4>Menu</h4>
+        <a href="#tipi">Vacanze Surf</a>
+        <a href="#destinazioni">Destinazioni</a>
+        <a href="#tipi">Sistemazioni</a>
+        <a href="#about">About</a>
+      </div>
+      <div class="foot-col">
+        <h4>Bog'lanish</h4>
+        <p style="font-size:13.5px;color:rgba(255,255,255,0.6);margin-bottom:6px;">@abduvaxobov_off</p>
+        <p style="font-size:13.5px;color:rgba(255,255,255,0.6);margin-bottom:18px;">+998 97 146 02 09</p>
+        <h4 style="margin-bottom:12px;">Koproq Malumot</h4>
+        <div class="foot-social">
+          <a href="#" aria-label="Facebook"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-8h2.7l.4-3.1h-3.1V8c0-.9.25-1.5 1.55-1.5H17V3.7C16.6 3.65 15.5 3.5 14.2 3.5c-2.7 0-4.5 1.65-4.5 4.7V10H7v3.1h2.7V21h3.8Z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+          <a href="#" aria-label="YouTube"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="6" width="20" height="12" rx="3"/><path d="M10 9.5 15 12l-5 2.5Z" fill="currentColor"/></svg></a>
+        </div>
+      </div>
+    </div>
+    <div class="foot-bottom">© 2026 Surf &amp; Travel Agency. Tutti i diritti riservati.</div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
